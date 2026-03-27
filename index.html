@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muxamedov Feruz Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="w-full">
+
+    <header>
+        <div class="container bg-black text-white flex justify-between px-10 py-5 items-center font-mono text-2xl">
+            <div class="">Muxamedov Feruz</div>
+            <div class="">
+                <ul class="flex justify-between gap-15">
+                    <li>Personal information</li>
+                    <li>Projects</li>
+                    <li>Feature job</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="bg-[url('https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2dldHR5aW1hZ2VzLTU0MTM4NTg1Ni5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjgyOH0sInRvRm9ybWF0IjoiYXZpZiJ9fQ==')] 
+                 w-full bg-cover bg-center pt-10">
+
+        <div class="container px-[5%] mb-14">
+            <div class="bg-white/10 border border-white/20 backdrop-blur-lg rounded-2xl p-8 shadow-xl text-white">
+
+                <h2 class="text-4xl font-semibold mb-6">Personal Information</h2>
+
+                <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-lg">
+                    <li><span class="font-bold">Name:</span> Muxamedov Feruz</li>
+                    <li><span class="font-bold">Age:</span> 14</li>
+                    <li><span class="font-bold">Location:</span> Bukhara, Uzbekistan</li>
+                    <li><span class="font-bold">Email:</span> fm1227693@gmail.com</li>
+                    <li><span class="font-bold">Phone:</span> +998914113012</li>
+                </ul>
+
+                <div class="mt-6 text-lg">
+                    <span class="font-bold">About me:</span>
+                    <p class="mt-2 text-white/90 leading-relaxed">
+                        I'm a student and beginner frontend developer. I like creating modern websites using HTML, CSS
+                        and TailwindCSS.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container px-[5%]">
+            <h1 class="text-white text-5xl font-bold mb-10 text-center">Projects</h1>
+
+            <ul class="text-white grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+
+                <li class="w-full h-full rounded-2xl px-6 py-6 bg-white/10 backdrop-blur-md border border-white/20 
+shadow-lg hover:scale-[1.02] transition-all duration-300">
+                    <a href="https://maxway-six.vercel.app/"
+                        class="text-2xl font-semibold text-white text-center block mb-4 hover:underline">
+                        MaxWay — Food Delivery
+                    </a>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <img class="w-full h-full object-cover rounded-xl shadow-md"
+                            src="data:image/jpeg;base64,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"
+                            alt="food delivery">
+
+                        <p class="text-white leading-relaxed">
+                            MaxWay restoranining online menyusi va zamonaviy buyurtma tizimi.
+                            Foydalanuvchilar taomlarni ko‘rib, tezkor buyurtma berishlari mumkin.
+                            Bu yerda siz xohlagan fastfood ovqatlarini topa olasiz.
+                        </p>
+                    </div>
+                </li>
+                <li class="w-full h-full rounded-2xl px-6 py-6 bg-white/10 backdrop-blur-md border border-white/20 
+shadow-lg hover:scale-[1.02] transition-all duration-300">
+                    <a href="https://kun-uz-brown.vercel.app/"
+                        class="text-2xl font-semibold text-white text-center block mb-4 hover:underline">
+                        Kun.uz — News Website Clone
+                    </a>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <img class="w-full h-full object-cover rounded-xl shadow-md"
+                            src="https://images.unsplash.com/photo-1559028012-481c04fa702d" alt="news">
+
+                        <p class="text-white leading-relaxed">
+                            Mashhur yangiliklar portali Kun.uz’ning UI kloni.
+                            Toza dizayn, sarlavhalar va yangilik bo‘limlari bilan to‘liq ishlatiladigan sahifa.
+                            Bu platforma orqali dunyo bo'ylab qanday hodisalar ro'y berayotganini bilin olishingiz
+                            mumkin
+                        </p>
+                    </div>
+                </li>
+                <li class="w-full h-full rounded-2xl px-6 py-6 bg-white/10 backdrop-blur-md border border-white/20 
+shadow-lg hover:scale-[1.02] transition-all duration-300">
+                    <a href="https://online-learning-eta-one.vercel.app/"
+                        class="text-2xl font-semibold text-white text-center block mb-4 hover:underline">
+                        Online Learning Platform
+                    </a>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <img class="w-full h-full object-cover rounded-xl shadow-md"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFib276g6gsvJ-lMGuJ55_iUbzfKW2qucdUA&s"
+                            alt="online learning">
+
+                        <p class="text-white leading-relaxed">
+                            Onlayn ta'lim platformasi (online learning platform) — bu internet orqali bilim olish,
+                            o'qitish va o'quv jarayonlarini boshqarish uchun mo'ljallangan raqamli tizimdir.
+                        </p>
+                    </div>
+                </li>
+                <li class="w-full h-full rounded-2xl px-6 py-6 bg-white/10 backdrop-blur-md border border-white/20 
+shadow-lg hover:scale-[1.02] transition-all duration-300">
+                    <a href="https://shifton-zeta.vercel.app/"
+                        class="text-2xl font-semibold text-white text-center block mb-4 hover:underline">
+                        ShifTon — Medical Website
+                    </a>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <img class="w-full h-full object-cover rounded-xl shadow-md"
+                            src="https://shifton.com/wp-content/uploads/2024/04/shifton-scheduling-tool.webp"
+                            alt="medical">
+
+                        <p class="text-white leading-relaxed">
+                            Shifton Field Service mijoz saytida ishlaydigan va o'z bozorida eng kuchli bo'lishni istagan
+                            kompaniyalar uchun asosiy tizim sifatida tanlangan.Bu saty sizga q'l kelishi mumkin
+
+
+                        </p>
+                    </div>
+                </li>
+                <li class="w-full h-full rounded-2xl px-6 py-6 bg-white/10 backdrop-blur-md border border-white/20 
+shadow-lg hover:scale-[1.02] transition-all duration-300">
+                    <a href="https://structure1.vercel.app/"
+                        class="text-2xl font-semibold text-white text-center block mb-4 hover:underline">
+                        Structure 1 — Architecture Layout
+                    </a>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <img class="w-full h-full object-cover rounded-xl shadow-md"
+                            src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29" alt="architecture">
+
+                        <p class="text-white leading-relaxed">
+                            Bu bian siz o'zingizning saytingizning bir qismini qila olasiz.
+                            Masalan unging ichki qismlarini shu eskiz orqali bajara olasiz. Hattoki loyhalaringizni shu
+                            uslunda taxlay olasiz
+                        </p>
+                    </div>
+                </li>
+
+                <li class="w-full h-full rounded-2xl px-6 py-6 bg-white/10 backdrop-blur-md border border-white/20 
+shadow-lg hover:scale-[1.02] transition-all duration-300">
+                    <a href="https://structure2-4tpl.vercel.app/"
+                        class="text-2xl font-semibold text-white text-center block mb-4 hover:underline">
+                        Structure 2 — Template Version
+                    </a>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <img class="w-full h-full object-cover rounded-xl shadow-md"
+                            src="https://images.unsplash.com/photo-1486325212027-8081e485255e"
+                            alt="architecture template">
+
+                        <p class="text-white leading-relaxed">
+                            Bir nechta sahifali arxitektura web-shablonining kengaytirilgan versiyasi.
+                            Masalan unging ichki qismlarini shu eskiz orqali bajara olasiz. Hattoki loyhalaringizni shu
+                            uslunda taxlay olasiz
+                        </p>
+                    </div>
+                </li>
+                <li class="w-full h-full rounded-2xl px-6 py-6 bg-white/10 backdrop-blur-md border border-white/20 
+shadow-lg hover:scale-[1.02] transition-all duration-300">
+                    <a href="https://telefon-do-kon.vercel.app/"
+                        class="text-2xl font-semibold text-white text-center block mb-4 hover:underline">
+                        Telefon Do‘koni — Online Shop
+                    </a>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <img class="w-full h-full object-cover rounded-xl shadow-md"
+                            src="https://static.hub.91mobiles.com/wp-content/uploads/sites/9/2025/12/Xiaomi-17-Ultra-2.png?tr=q-70"
+                            alt="phone shop">
+
+                        <p class="text-white leading-relaxed">
+                            Smartfonlar, aksessuarlar va texnologiyalar uchun online do‘kon dizayni.
+                            Bu sayt orqali xohlagan turdagi XIOMI telefonlarini, quloqchilari, notebooklarini sotib ola
+                            olasiz.
+                            Eng asosisi hamma mahsulotlar original
+                        </p>
+                    </div>
+                </li>
+                <li class="w-full h-full rounded-2xl px-6 py-6 bg-white/10 backdrop-blur-md border border-white/20 
+shadow-lg hover:scale-[1.02] transition-all duration-300">
+                    <a href="https://tingla-seven.vercel.app/"
+                        class="text-2xl font-semibold text-white text-center block mb-4 hover:underline">
+                        Tingla — Music Player
+                    </a>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <img class="w-full h-full object-cover rounded-xl shadow-md"
+                            src="https://images.unsplash.com/photo-1511379938547-c1f69419868d" alt="music app">
+
+                        <p class="text-white leading-relaxed">
+                            Onlayn musiqa tinglash platformasi.
+                            Playlistlar, audio player va zamonaviy UI.
+                            Har xil audiolitoblarni eshitishingiz mumkin.
+                            Eng asosiysi barchasi xavfsiz va audioni ishlatish vakolatiga ega
+                        </p>
+                    </div>
+                </li>
+                <li class="w-full h-full rounded-2xl px-6 py-6 bg-white/10 backdrop-blur-md border border-white/20 
+shadow-lg hover:scale-[1.02] transition-all duration-300">
+                    <a href="https://woc-seven.vercel.app/"
+                        class="text-2xl font-semibold text-white text-center block mb-4 hover:underline">
+                        WOC — Corporate Website
+                    </a>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <img class="w-full h-full object-cover rounded-xl shadow-md"
+                            src="https://photos.peopleimages.com/picture/202310/2935991-modern-open-space-office-interior-or-call-centre-with-blurred-business-people-fit_400_400.jpg"
+                            alt="corporate">
+
+                        <p class="text-white leading-relaxed">
+                            Korporativ kompaniya uchun ishlab chiqilgan professional veb-sahifa.
+                            Ushbu loyiha biznes xizmatlari, kompaniya statistikasi, jamoa haqida ma’lumotlar,
+                            hamkorlar logotiplari va aloqa bo‘limi kabi barcha zarur bo‘limlarni o‘z ichiga oladi.
+
+                        </p>
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+
+        <section class="container mx-auto px-5 py-16">
+            <h2 class="text-white text-5xl font-bold mb-10 text-center">Feature Job</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div
+                    class="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-6 shadow-lg hover:scale-[1.03] transition-all duration-300">
+                    <h3 class="text-2xl font-semibold text-white mb-4">Frontend Developer</h3>
+                    <p class="text-white/80 mb-4">
+                        Creating modern responsive websites using HTML, CSS, TailwindCSS, and React.js.
+                    </p>
+                    <h4 class="text-white font-medium mb-2">Skills:</h4>
+                    <ul class="flex flex-wrap gap-2">
+                        <li class="bg-white/20 px-3 py-1 rounded-full">HTML</li>
+                        <li class="bg-white/20 px-3 py-1 rounded-full">CSS</li>
+                        <li class="bg-white/20 px-3 py-1 rounded-full">TailwindCSS</li>
+                    </ul>
+                </div>
+
+                <div
+                    class="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-6 shadow-lg hover:scale-[1.03] transition-all duration-300">
+                    <h3 class="text-2xl font-semibold text-white mb-4">Backend Developer</h3>
+                    <p class="text-white/80 mb-4">
+                        Learning Java and building server-side applications, connecting databases, and creating APIs.
+                    </p>
+                    <h4 class="text-white font-medium mb-2">Skills:</h4>
+                    <ul class="flex flex-wrap gap-2">
+                        <li class="bg-white/20 px-3 py-1 rounded-full">Java</li>
+                        <li class="bg-white/20 px-3 py-1 rounded-full">SQL / Databases</li>
+                        <li class="bg-white/20 px-3 py-1 rounded-full">APIs</li>
+                        <li class="bg-white/20 px-3 py-1 rounded-full">Git / GitHub</li>
+                    </ul>
+                </div>
+
+                <div
+                    class="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-6 shadow-lg hover:scale-[1.03] transition-all duration-300">
+                    <h3 class="text-2xl font-semibold text-white mb-4">Fullstack Developer (Future)</h3>
+                    <p class="text-white/80 mb-4">
+                        Combining frontend and backend skills to create complete web applications.
+                    </p>
+                    <h4 class="text-white font-medium mb-2">Skills:</h4>
+                    <ul class="flex flex-wrap gap-2">
+                        <li class="bg-white/20 px-3 py-1 rounded-full">HTML</li>
+                        <li class="bg-white/20 px-3 py-1 rounded-full">CSS</li>
+                        <li class="bg-white/20 px-3 py-1 rounded-full">TailwindCSS</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="footer bg-black">
+
+            <div class="container flex flex-col md:flex-row justify-around items-center py-5">
+                <!-- Copyright -->
+                <div class="text-center text-gray-400 text-sm">
+                    &copy; 2026 Feruz.
+                </div>
+                <!-- Social Icons -->
+                <div class="flex gap-8 mb-6 md:mb-0">
+
+                    <!-- Telegram -->
+                    <a href="https://t.me/feruz30012012" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png"
+                            class="w-16 h-16 hover:scale-110 transition transform duration-300" alt="Telegram">
+                    </a>
+
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/feruz.0.30.01" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
+                            class="w-16 h-16 hover:scale-110 transition transform duration-300" alt="Instagram">
+                    </a>
+
+                    <!-- TikTok -->
+                    <a href="https://www.tiktok.com/@fifa.mobile0631?_r=1&_t=ZS-951zqjmjeSd" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3046/3046123.png"
+                            class="w-16 h-16 hover:scale-110 transition transform duration-300" alt="TikTok">
+                    </a>
+
+                </div>
+
+
+
+            </div>
+
+        </footer>
+
+    </main>
+
+
+
+
+</body>
+
+</html>
