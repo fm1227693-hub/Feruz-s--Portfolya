@@ -16,22 +16,29 @@
 
 <body class="w-full">
 
-<header class="fixed top-0 left-0 w-full z-50 backdrop-blur-xl bg-white/10 border-b border-white/20">
-    <div class="container mx-auto flex justify-between items-center px-10 py-5 font-mono text-2xl text-white">
-        <div>Muxamedov Feruz</div>
+    <header class="fixed top-0 left-0 w-full z-50 backdrop-blur-xl bg-white/10 border-b border-white/20">
+        <div class="container mx-auto flex justify-between items-center px-10 py-5 font-mono text-2xl text-white">
+            <div>Muxamedov Feruz</div>
 
-        <nav>
-            <ul class="flex space-x-10">
-                <li><a href="#information" class="hover:text-gray-300">Personal information</a></li>
-                <li><a href="#Projects" class="hover:text-gray-300">Projects</a></li>
-                <li><a href="#Feature" class="hover:text-gray-300">Feature job</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+            <nav>
+                <ul class="flex space-x-10">
+                    <li><a href="#information" class="hover:text-gray-300">Personal information</a></li>
+                    <li><a href="#Projects" class="hover:text-gray-300">Projects</a></li>
+                    <li><a href="#Feature" class="hover:text-gray-300">Feature job</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
     <main class="bg-[url('imgs/3d-fictional-space-background.jpg')] 
-                 w-full bg-cover bg-center pt-25 " >
+                 w-full bg-cover bg-center pt-25 ">
+
+
+
+
+
+
+
 
         <div id="information" class="container px-[5%] mb-14">
             <div class="bg-white/10 border border-white/20 backdrop-blur-lg rounded-2xl p-8 shadow-xl text-white">
@@ -363,6 +370,111 @@ shadow-lg hover:scale-[1.02] transition-all duration-300">
 
     </footer>
 
+
+
+    <style>
+        html,
+        body {
+            scroll-behavior: smooth;
+        }
+
+        @media (max-width:768px) {
+
+            header .container {
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+
+            header {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 15px !important;
+            }
+
+            nav ul li a {
+                font-size: 16px !important;
+            }
+
+            main {
+                padding-top: 180px !important;
+            }
+
+            #information,
+            #Projects,
+            #Feature-Job {
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+            }
+
+            #information h2,
+            #Projects h1,
+            #Feature-Job h2 {
+                font-size: 30px !important;
+                text-align: center;
+            }
+
+            .text-5xl {
+                font-size: 32px !important;
+            }
+
+            .text-4xl {
+                font-size: 28px !important;
+            }
+
+            .text-2xl {
+                font-size: 20px !important;
+            }
+
+            ul.grid,
+            .grid {
+                grid-template-columns: 1fr !important;
+            }
+
+            .flex.flex-wrap.md\:grid-cols-2 {
+                flex-direction: column;
+            }
+
+            img {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            p {
+                font-size: 14px !important;
+                line-height: 24px !important;
+            }
+
+            li,
+            span {
+                font-size: 14px !important;
+            }
+
+            .px-6 {
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+            }
+
+            .p-8 {
+                padding: 20px !important;
+            }
+
+            footer .container {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            footer .flex {
+                margin-bottom: 0 !important;
+            }
+        }
+    </style>
 
 
 </body>
